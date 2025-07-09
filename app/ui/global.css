@@ -2,6 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.debug-border {
+  border: 10px solid blueviolet !important;
+}
+
+/* Start of Selection */
+.debug-border-1 {
+  border: 10px solid red !important;
+}
+
+.debug-border-2 {
+  border: 10px solid blue !important;
+}
+
+.debug-border-3 {
+  border: 10px solid green !important;
+}
+
+.debug-border-4 {
+  border: 10px solid orange !important;
+}
+
+.debug-border-5 {
+  border: 10px solid purple !important;
+}
+
+
 input[type='number'] {
   -moz-appearance: textfield;
   appearance: textfield;
